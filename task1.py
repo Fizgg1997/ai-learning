@@ -23,3 +23,10 @@ print(average(marks))
 # Task 5
 
 # Use if condition:
+for i in marks:
+    if i > 80:
+        print("Excellent")
+    if i < 50:
+        print("Fail")
+    else:
+        print("Pass")
