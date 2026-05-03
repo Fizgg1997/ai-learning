@@ -26,7 +26,7 @@ print(full_array[full_array>18])
 new_array = np.array([[7,8],
  [9,10],
  [11,12]])
-print(new_array)
+print(new_array.shape)
 
 
 # Bonus Challenge
