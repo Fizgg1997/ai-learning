@@ -27,3 +27,11 @@ new_array = np.array([[7,8],
  [9,10],
  [11,12]])
 print(new_array)
+
+
+# Bonus Challenge
+
+# Find average of values greater than 18.
+
+a  = np.mean(full_array[full_array>18])
+print(a)
